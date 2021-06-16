@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --vermrlho:#E50914;
+    --preta:#141414;
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.logo{
+    margin-left: 5px;
+    color: var(--vermrlho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #aaa;
+}
+
+nav a:hover{
+    color: #fff;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filme-principal .descricao{
+    margin-top: 15%;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0,.50),rgba(0, 0, 0,.50)100%), url(img/lucifer.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+.botao{
+    background-color: black;
+    border: none;
+    padding: 20px 40px;
+    color: white;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 2s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-filme{
+    margin-top: 5px;
+}
